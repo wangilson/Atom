@@ -14,7 +14,7 @@ unzip lib.zip
 ```
 2. Currently, we receive llvm-IR *.bc as input.
 ```
- cd A_bin
+ cd Atom_bin
  A [input.file] -t-e main -i-e [isr_fun1,isr_fun2...] -i-p [isr_priority1,isr_priority1...] -o [output.file]
 ```
 3. We use the example.bc to illustrate the tool-chain.
